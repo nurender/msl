@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 62px;
+    background-color: #e7e7e7
+}
+.headerleft{
+    width: 35%;
+    height: 62px;
+    float: left;
+}
+.headerleft .logo{
+    margin-left: 195px;
+    margin-top: 10px;
+    margin-right: 10px;
+    float: left;
+}
+
+.headerright{
+    width: 65%;
+    height: 62px;
+    float: left;
+}
+ul{
+    list-style: none;
+}
+.headerright ul li{
+    padding: 22px;
+}
+.headerright .am{
+    float: left;
+    color: black
+}
+.headerright .am:hover{
+    background-color: #347db6;
+}
+.headerright ul ul{
+    /* margin-left: -200px; */
+    margin-top: 22px;
+    position: absolute;
+}
+.About li{
+    background-color: #347db6;
+    /* padding: 10px; */
+    /* width: 500px;   */
+    /* min-width: 160px; */
+    width: 600px;
+    margin-left: -200px;
+}
+
+.About a:hover{
+    text-decoration: transparent;
+    color: red;
+}
+.Univeristies a:hover{
+    text-decoration: underline;
+    color: red
+}
+.Board :hover{
+    text-decoration: underline;
+    color: red
+}
+.headerright ul ul a{
+    text-decoration: none;
+}
+.headerright ul ul{
+    display: none
+}
+.headerright ul li:hover ul{
+    display: block;
+}
+.headerright .a{
+    float: left;
+    color: black
+}
+.headerright .a:hover{
+    background-color: #c62530;
+}
+.Affiliations{
+    background-color: #c62530;
+    width: 600px;
+    margin-left: -200px;
+}
+.Affiliations a:hover{
+    text-decoration: underline;
+}
+.Univeristies li{
+    font-size: 12px;
+    padding: 0px;
+    margin: 0px;
+}
+.Board li{
+    font-size: 12px;
+}
+.Univeristies{
+    margin: 0px;
+    padding: 0px;
+}
+.headerright .c{
+    float: left;
+    color: black
+}
+.headerright .c:hover{
+    background-color: orangered ;
+}
+.headerright .mt{
+    float: left;
+    color: black
+}
+.headerright .mt:hover{
+    background-color: rgb(219, 64, 7) ;
+}
+.headerright .cu{
+    float: left;
+    color: black
+}
+a{
+    color: white
+}
+.headerright .cu:hover{
+    background-color: green;
+}
+.headerright a{
+    text-decoration: none;
+    /* color: black; */
+}
+
+
+.div1{
+    height: 20px;
+    width: 100%;
+    background-color: black;
+}
+.div1a1{
+    margin-left: 190px;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+}
+.div1a1:hover{
+    text-decoration: underline;
+}
+.div1a11{
+    margin-left: 500px;
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+}
+.div1a11:hover{
+    text-decoration: underline;
+}
+.div1a111{
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    margin-left: 8px
+}
+.div1a111:hover{
+    text-decoration: underline;
+}
+.MSLTeam{
+    height: 80px;
+    width: 100%;
+    background-color: #da7316
+}
+.MSLTeam p{
+    margin-left: 207px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding-top: 20px;
+}
+.router{
+    width: 100%;
+    height: 400px;
+}

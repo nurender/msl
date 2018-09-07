@@ -1,0 +1,14 @@
+.mane{
+    width: 100%;
+    height: auto;
+}
+.body{
+    width: 100%;
+    height: 500px;
+    padding-top: 14px;
+}
+.footer{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(255, 250, 241)
+}

@@ -1,0 +1,28 @@
+.MSLTeam{
+    height: 80px;
+    width: 100%;
+    background-color: #da7316;
+    margin-top: -20px;
+}
+.MSLTeam h2{
+    font-weight: bold;
+    color: white;    
+    margin-left: 198px;
+}
+.div1{
+    background-color: #da7316;
+    width: 130px;
+    height: 100px;
+    margin-left: 200px;
+    float: left;
+    padding: 10px;
+    color: white;
+    margin-top: 19px;
+}
+.div1 p{
+    font-size: 10px
+}
+.div2{
+    margin-left: 376px;
+    margin-top: 19px;
+}

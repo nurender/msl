@@ -1,0 +1,56 @@
+<div class="mane">
+  <div class="header">
+      <div class="headerleft">
+          <img class="logo" src="../assets/logo.png" height="50px" alt="logo">
+          <a href="#"> <img class="msl" src="../assets/msl.png" width="100px" alt="MSLImage"></a>
+      </div>
+      <div class="headerright">
+          <ul>
+              <a href=""> <li class="am">About MSL
+                  <ul class="About">
+                      <li><a routerLink="AboutChairman" (click)="myfun()"> About Chairman</a></li>
+                      <li><a routerLink="AboutDirector" (click)="myfun()"> About Director</a></li>
+                      <li><a routerLink="OurVision" (click)="myfun()"> Our Vision</a></li>
+                  </ul>
+              </li></a>
+              <a href=""><li class="a">Affiliations
+                  <ul class="Affiliations">
+                      <li style="float:left">Univeristies<a href="http://www.mslindia.in/chairman_message.php#"></a>
+                      <ol type="a" class="Univeristies">
+                        <li><a routerLink="JaipurNationalUniversity" (click)="myfun()"> Jaipur National University</a></li>
+                        <li><a routerLink="MaharajVinayakGlobal" (click)="myfun()"> Maharaj vinayak Global</a></li>
+                        <li><a routerLink="MaharajVinayakGlobal" (click)="myfun()">SVS UNIVERSITY</a></li>
+                      </ol>
+                      </li>
+                      <li style="float:left">Board
+                      <ol type="a" class="Board">
+                        <li><a routerLink="JaipurNationalUniversity" (click)="myfun()"> GMVSS</a></li>
+                      </ol></li>
+                      <li style="float:left" class="Board">Collaboration With
+                        <ol type="a">
+                          <li><a href="http://www.mslindia.in/chairman_message.php#"> MSL TRUST</a></li>
+                          <li><a href=""> Manomay Education & Well- <br> fare Society</a></li>
+                        </ol>
+                      </li>
+                  </ul>
+              </li></a>
+              <a href=""><li class="c"> Courses</li></a>
+              <a routerLink="body" (click)="myfun()"><li class="mt">MSL Team</li></a>
+              <a href=""><li class="cu"> Contact us</li></a>
+          </ul>
+      </div>
+  </div>
+  <div class="div1">
+      <a class="div1a1" href="">Events</a>
+      <a class="div1a11" href="">Online Result</a>
+      <a class="div1a111" href="">Downloads</a>
+  </div>
+  <div>
+    <div id="body" class="MSLTeam"> 
+        <app-body></app-body>
+    </div>
+    <div class="router">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
